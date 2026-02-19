@@ -1,0 +1,9 @@
+node_modules/
+.env
+.DS_Store
+_legacy_backup/
+dist/
+build/
+coverage/
+npm-debug.log
+yarn-error.log
