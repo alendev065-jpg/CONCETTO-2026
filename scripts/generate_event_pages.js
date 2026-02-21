@@ -242,38 +242,77 @@ const eventList = [
     // Informals (Electric Amber)
     {
         filename: 'debate.html',
-        title: 'Debate',
+        title: 'CROSS SECTION',
         category: 'Informal Event',
-        description: 'Voice your opinion on trending topics.',
-        date: 'Feb 27',
+        overview: 'Cross Section is a lively debate competition where perspectives clash and logic takes center stage. Participants battle it out with arguments, counter-arguments, and clarity of thought, testing communication skills, confidence, and critical thinking in a fun yet competitive environment.',
+        description: 'Where perspectives intersect.',
+        date: '27 February 2026',
         time: '4:00 PM',
         venue: 'Eastern Amphi',
-        rules: ['Team Size: 2'],
-        coordinators: [{ name: 'Kunjilakshmi', phone: '77361 73672' }],
+        rules: [
+            'Registration Fee: ₹50',
+            'Prize Pool: ₹2,000',
+            'Open to all college students',
+            'Individual participation',
+            'Topics will be given on the spot',
+            'Participants must respect time limits',
+            'Use of offensive language is strictly prohibited',
+            'Judges’ decision will be final and binding'
+        ],
+        coordinators: [
+            { name: 'Kunjilakshmi', phone: '77361 73672' },
+            { name: 'Anupriya T S', phone: '89216 21861' }
+        ],
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdx1HV_Kw1JPan_TQUBFuyJJnDFgpUqIRgGMW6t7_8F0krvqA/viewform'
     },
     {
         filename: 'food-eating.html',
-        title: 'Food Eating',
+        title: 'CRAVATO',
         category: 'Informal Event',
-        description: 'Eat as much as you can in the shortest time.',
-        date: 'Feb 28',
+        overview: 'Cravato is a fun-packed food eating competition designed to test speed, stamina, and strategy. Participants race against time and competitors to conquer the feast and claim victory in one of Concetto’s most entertaining informal events.',
+        description: 'Unleash the Beast, Conquer the Feast.',
+        date: '28 February 2026',
         time: '12:30 PM',
-        venue: 'Dept. Front',
-        rules: ['Individual participation'],
-        coordinators: [{ name: 'Jesna', phone: '94968 81911' }],
+        venue: 'Department Front',
+        rules: [
+            'Registration Fee: ₹50',
+            'Prize Pool: ₹2,000',
+            'Open to all students',
+            'Individual participation only',
+            'Food items will be provided on the spot',
+            'Participants must follow hygiene and safety rules',
+            'Any unfair practice leads to disqualification',
+            'Coordinators’ instructions must be followed strictly'
+        ],
+        coordinators: [
+            { name: 'Jesna Sabu', phone: '94968 81911' },
+            { name: 'Sona Sudheesh', phone: '62828 29854' }
+        ],
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeRAQdhwUaZpGAy-g70ZMtj0Hnap620sKzasg1Ir0OcNfrjiA/closedform'
     },
     {
         filename: 'spot-dubbing-choreo.html',
-        title: 'Spot Dubbing / Choreo',
+        title: 'ELEVATION',
         category: 'Informal Event',
-        description: 'Show your acting and dancing skills.',
-        date: 'Mar 01',
+        overview: 'Elevation is a high-energy spot choreography competition where dancers express creativity, rhythm, and confidence on the fly. Participants must adapt instantly to music and showcase their performance skills without prior preparation.',
+        description: 'The Spot Choreo Arena.',
+        date: '01 March 2026',
         time: '3:00 PM',
         venue: 'Western Amphi',
-        rules: ['Individual/Team'],
-        coordinators: [{ name: 'Sreehari', phone: '99466 61464' }],
+        rules: [
+            'Registration Fee: ₹25',
+            'Prize Pool: ₹2,000',
+            'Open to all students',
+            'Individual participation only',
+            'Music will be provided on the spot',
+            'Performance duration will be informed during the event',
+            'Vulgarity or unsafe moves are strictly prohibited',
+            'Judges’ decision will be final and binding'
+        ],
+        coordinators: [
+            { name: 'Sreehari Raj', phone: '99466 61464' },
+            { name: 'Arsha V K', phone: '82898 68621' }
+        ],
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe26V18F5JoDoZZSF--aFHjkwGpT2HOp3cAzR7r2mrD36-Jaw/viewform'
     },
 
