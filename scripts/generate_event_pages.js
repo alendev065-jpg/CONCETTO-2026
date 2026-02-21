@@ -5,38 +5,86 @@ const eventList = [
     // Technical Events (Neon Blue)
     {
         filename: 'quantity-estimation.html',
-        title: 'Quantity Estimation',
+        title: 'QUANTIFY',
         category: 'Technical Event',
+        overview: 'QUANTIFY is a technical quantity estimation challenge where participants test their practical knowledge of BOQ preparation, material estimation, and real-world construction calculations. The event evaluates accuracy, speed, and understanding of estimation principles used in civil engineering practice.',
         description: 'Test your skills in estimating quantities from structural drawings.',
-        date: 'Feb 27',
-        time: '10:00 AM - 12:00 PM',
-        venue: 'C 15',
-        rules: ['Team Size: 2-3', 'Bring your own calculator.'],
-        coordinators: [{ name: 'Anshitha', phone: '85938 34623' }],
+        date: '27 February 2026',
+        time: '10:00 AM – 12:00 PM',
+        venue: 'C15',
+        rules: [
+            'Registration Fee: ₹100',
+            'Prize Pool: ₹5,000',
+            'Activity Points: Up to 30',
+            'Open to all college students',
+            'Individual participation only',
+            'Valid college ID card is mandatory',
+            'Total duration: 2 hours',
+            'Participants must submit within the given time',
+            'Any form of malpractice or copying will lead to immediate disqualification',
+            'Participants must follow instructions of event coordinators',
+            'Judges’ decision will be final and binding'
+        ],
+        coordinators: [
+            { name: 'Anshitha', phone: '85938 34623' },
+            { name: 'Sreegovind', phone: '99952 61962' }
+        ],
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfePM_bIqm9ND7PCGKIxOnbVo0MoaPlIFzmh1xQhmQDD4raWQ/viewform'
     },
     {
         filename: 'failure-x.html',
-        title: 'FailureX',
+        title: 'FAILUREX',
         category: 'Technical Event',
+        overview: 'FAILUREX is a forensic engineering challenge where teams analyze real-world engineering failure cases. Participants investigate causes, sequence of failure, and preventive measures, testing analytical thinking, teamwork, and presentation skills.',
         description: 'Analyze structural failures and propose solutions.',
-        date: 'Feb 27',
-        time: '11:00 AM - 1:00 PM',
+        date: '27 February 2026',
+        time: '11:00 AM – 1:00 PM',
         venue: 'Conference Hall',
-        rules: ['Individual participation', 'Case study provided on spot.'],
-        coordinators: [{ name: 'Surabhi', phone: '85472 76614' }],
+        rules: [
+            'Registration Fee: ₹200',
+            'Prize Pool: ₹7,000',
+            'Activity Points: Up to 30',
+            'Team-based event with 3–5 members per team',
+            'Open to students of all years',
+            'Each team will be assigned one engineering failure case on the spot',
+            'Teams must analyze what failed, why it failed, and how it could have been prevented',
+            'Laptop is compulsory for each team',
+            'Duration: 1–1.5 hours',
+            'Presentation format and time limit will be informed during the event',
+            'Judges’ decision will be final and binding'
+        ],
+        coordinators: [
+            { name: 'Surabhi', phone: '85472 76614' },
+            { name: 'Karthika', phone: '62384 77523' }
+        ],
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSccsf4UmTkdnc5VGrBCxvq8LsOvZew3ZXNkRKnxfWApRsVJUA/viewform'
     },
     {
         filename: 'scaffex.html',
-        title: 'Scaffex',
+        title: 'SCAFFEXX',
         category: 'Technical Event',
+        overview: 'SCAFFEXX ’26 challenges teams to design and construct stable scaffolding structures using provided materials. The event tests structural logic, load understanding, precision, teamwork, and innovative design under time pressure.',
         description: 'Design and build the most efficient scaffolding structure.',
-        date: 'Mar 01',
-        time: '10:00 AM - 12:00 PM',
-        venue: 'C 16',
-        rules: ['Team Size: 3-4', 'Materials provided.'],
-        coordinators: [{ name: 'Shazmil', phone: '80754 16326' }],
+        date: '01 March 2026',
+        time: '10:00 AM – 12:00 PM',
+        venue: 'C16',
+        rules: [
+            'Registration Fee: ₹200',
+            'Prize Pool: ₹12,000',
+            'Activity Points: Up to 30',
+            'Team-based event with 4 members per team',
+            'All team members must be college students and carry valid ID cards',
+            'The event will be conducted in three rounds:',
+            'Round 1: Aptitude Test',
+            'Round 2: Details informed at the time of the test',
+            'Round 3: Scaffolding Challenge',
+            'Scaffolding model must be constructed using only the materials provided',
+            'Judges’ decision will be final and binding'
+        ],
+        coordinators: [
+            { name: 'Shazmil', phone: '80754 16326' },
+            { name: 'Rafaath', phone: '87143 56086' }
+        ],
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSf2AcuomWPPz4kqV_DR9zuBtIM6E3yUJ6b6Bxfk1e7-E-OpQg/viewform'
     },
 
