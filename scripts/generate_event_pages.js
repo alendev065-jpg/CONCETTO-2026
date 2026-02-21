@@ -116,26 +116,79 @@ const eventList = [
 
     // Workshops (Emerald Green)
     {
-        filename: 'naamearth.html',
-        title: 'Naamearth',
+        filename: 'natural-plasters-workshop.html',
+        title: 'Natural Plasters & Finishes Workshop',
         category: 'Workshop',
-        description: 'Workshop on sustainable construction.',
-        date: 'Feb 27',
-        time: 'Full Day',
-        venue: 'Gloria Gopi Hall',
-        rules: ['Open to all', 'Certificate provided.'],
-        coordinators: [{ name: 'Committee Members', phone: 'Contact Desk' }]
+        overview: 'This workshop explores sustainable and eco-friendly construction finishes using traditional materials and techniques. Participants will gain practical exposure to earth and lime-based plasters, natural pigments, and climate-responsive finishing methods through live demonstrations and hands-on application.',
+        description: 'A one-day hands-on workshop by NAAMEARTH exploring sustainable surface finishing techniques including earth & lime-based plasters, natural pigments, and traditional finishing methods through live demos and hands-on application.',
+        date: 'Mar 01',
+        time: '10:00 AM',
+        venue: 'Eastern Amphi, GECT',
+        rules: [
+            'Registration Fee: ₹100',
+            'Seats: Limited (25–30 participants)',
+            'Activity Points: Up to 20',
+            'Materials will be provided',
+            'Wear comfortable clothes',
+            'Hands-on participation required',
+            'Certificates will be provided',
+            'No spot registration',
+            'Limited seats, first come first serve'
+        ],
+        coordinators: [
+            { name: 'Janisha', phone: '+91 99470 59088' },
+            { name: 'Nihada', phone: '+91 95394 81024' }
+        ],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdv80AsJq2Y_dpcd6N9xFMdzYdDEiiYGYuC8eV1_L2Rr2Q8kw/viewform?usp=sharing&ouid=100074532887975609263'
     },
     {
-        filename: 'cisat-vr.html',
-        title: 'CISAT-VR Workshop',
+        filename: 'autodesk-revit-workshop.html',
+        title: 'Autodesk Revit Workshop',
         category: 'Workshop',
-        description: 'Experience the future of construction with VR.',
+        overview: 'This workshop introduces participants to Autodesk Revit, a powerful Building Information Modeling (BIM) tool widely used in the construction industry. The session focuses on creating intelligent 3D models, understanding BIM workflows, and transitioning from traditional 2D drafting to modern digital construction practices.',
+        description: 'Hands-on expert-led workshop on Autodesk Revit, the global standard for 3D structural modeling. Learn modern BIM workflows and move beyond traditional 2D drawings.',
+        date: 'Feb 27',
+        time: '1:00 PM – 4:00 PM',
+        venue: 'Civil CAD Lab',
+        rules: [
+            'Registration Fee: ₹99',
+            'Activity Points: Up to 20',
+            'Participants must bring their own laptops',
+            'Autodesk Revit should be pre-installed',
+            'Basic knowledge of CAD is recommended',
+            'Certificates will be provided',
+            'Limited seats available',
+            'No spot registration'
+        ],
+        coordinators: [
+            { name: 'Anusree P S', phone: '+91 97784 80482' },
+            { name: 'Ganga Krishna P', phone: '+91 77360 48214' }
+        ],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSf_Tpe6wQjAkYIBg00OLVhpnO3i9lefN-pcUeTVXYDatTRRZA/viewform?usp=publish-editor'
+    },
+    {
+        filename: 'vr-ai-workshop.html',
+        title: 'Virtual Reality & AI Applications in Civil Engineering',
+        category: 'Workshop',
+        overview: 'This industry-led workshop demonstrates how Virtual Reality (VR) and Artificial Intelligence (AI) are revolutionizing civil engineering. Participants will experience immersive visualization techniques and understand how emerging technologies are applied in planning, design, and execution stages of construction projects.',
+        description: 'Industry-led workshop by Tangent exploring how Virtual Reality (VR) and Artificial Intelligence (AI) are transforming civil engineering — from design visualization to execution.',
         date: 'Feb 28',
-        time: '11:00 AM - 1:00 PM',
-        venue: 'Seminar Hall',
-        rules: ['Limited seats'],
-        coordinators: [{ name: 'Siyana', phone: '80893 90638' }]
+        time: '10:00 AM',
+        venue: 'Civil Seminar Hall',
+        rules: [
+            'Registration Fee: ₹150',
+            'Activity Points: Up to 20',
+            'Open to all engineering students',
+            'Interactive demo-based session',
+            'Certificates will be provided',
+            'No spot registration',
+            'Limited seats available'
+        ],
+        coordinators: [
+            { name: 'Siyana M S', phone: '+91 80893 90638' },
+            { name: 'Cijins P Nassar', phone: '+91 88489 91941' }
+        ],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfIxhKPzavgRLZxf4oJtUf4U2k3M1JTft1_8OE7mVcQ9ngPeQ/viewform'
     },
 
     // Informals (Electric Amber)
@@ -379,7 +432,7 @@ const templateRaw = `<!DOCTYPE html>
                 Event Overview
             </h2>
             <div class="prose prose-invert prose-lg max-w-none text-gray-300 leading-relaxed">
-                <p>{{DESCRIPTION}}</p>
+                <p>{{OVERVIEW}}</p>
             </div>
         </section>
 
@@ -481,6 +534,7 @@ function generatePages() {
         let content = templateRaw.replace(/{{TITLE}}/g, event.title);
         content = content.replace(/{{CATEGORY}}/g, event.category);
         content = content.replace(/{{DESCRIPTION}}/g, event.description);
+        content = content.replace(/{{OVERVIEW}}/g, event.overview || event.description);
         content = content.replace(/{{DATE}}/g, event.date);
         content = content.replace(/{{TIME}}/g, event.time);
         content = content.replace(/{{VENUE}}/g, event.venue);
