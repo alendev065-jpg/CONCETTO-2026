@@ -12,7 +12,8 @@ const eventList = [
         time: '10:00 AM - 12:00 PM',
         venue: 'C 15',
         rules: ['Team Size: 2-3', 'Bring your own calculator.'],
-        coordinators: [{ name: 'Anshitha', phone: '85938 34623' }]
+        coordinators: [{ name: 'Anshitha', phone: '85938 34623' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfePM_bIqm9ND7PCGKIxOnbVo0MoaPlIFzmh1xQhmQDD4raWQ/viewform'
     },
     {
         filename: 'failure-x.html',
@@ -23,7 +24,8 @@ const eventList = [
         time: '11:00 AM - 1:00 PM',
         venue: 'Conference Hall',
         rules: ['Individual participation', 'Case study provided on spot.'],
-        coordinators: [{ name: 'Surabhi', phone: '85472 76614' }]
+        coordinators: [{ name: 'Surabhi', phone: '85472 76614' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSccsf4UmTkdnc5VGrBCxvq8LsOvZew3ZXNkRKnxfWApRsVJUA/viewform'
     },
     {
         filename: 'scaffex.html',
@@ -34,7 +36,8 @@ const eventList = [
         time: '10:00 AM - 12:00 PM',
         venue: 'C 16',
         rules: ['Team Size: 3-4', 'Materials provided.'],
-        coordinators: [{ name: 'Shazmil', phone: '80754 16326' }]
+        coordinators: [{ name: 'Shazmil', phone: '80754 16326' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSf2AcuomWPPz4kqV_DR9zuBtIM6E3yUJ6b6Bxfk1e7-E-OpQg/viewform'
     },
 
     // Competitions (Neon Blue)
@@ -47,7 +50,8 @@ const eventList = [
         time: '1:00 PM - 4:00 PM',
         venue: 'Structural Block',
         rules: ['Team Size: 2'],
-        coordinators: [{ name: 'Indubala', phone: '90481 99989' }]
+        coordinators: [{ name: 'Indubala', phone: '90481 99989' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSergdY9bh5-M2qk-1_HvRNDIo-6MggXso4lbf6UWKOUVO8EIA/viewform'
     },
     {
         filename: 'urbanova.html',
@@ -58,7 +62,8 @@ const eventList = [
         time: '10:00 AM - 11:00 AM',
         venue: 'C 15',
         rules: ['Team Size: 2-4', 'Submission prior to event required.'],
-        coordinators: [{ name: 'Jasmin', phone: '89218 65740' }]
+        coordinators: [{ name: 'Jasmin', phone: '89218 65740' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfa6DqOiL8PH1E_cX2EwC51J1lhTzPaOKxYq1PhY3RDCXko_w/viewform'
     },
     {
         filename: 'kaun-banega-civilpati.html',
@@ -69,7 +74,8 @@ const eventList = [
         time: '3:00 PM - 6:00 PM',
         venue: 'Eastern Amphi',
         rules: ['Individual participation'],
-        coordinators: [{ name: 'Keerthana', phone: '99952 79824' }]
+        coordinators: [{ name: 'Keerthana', phone: '99952 79824' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNhuUmvvASzKQCZnXxfbnyhYn0g90wMx6ESF2ZQaGieA89Sg/viewform'
     },
     {
         filename: 'draftera.html',
@@ -80,7 +86,8 @@ const eventList = [
         time: '1:30 PM - 3:00 PM',
         venue: 'CAD Lab',
         rules: ['Individual participation', 'AutoCAD required.'],
-        coordinators: [{ name: 'Amritha', phone: '95399 86028' }]
+        coordinators: [{ name: 'Amritha', phone: '95399 86028' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLScieF3HLYvwJYs8On7aaHRxjBu2bUxMTZvmYOjLyl3091RAaw/viewform'
     },
     {
         filename: 'decrypta.html',
@@ -91,7 +98,8 @@ const eventList = [
         time: 'Full Day',
         venue: 'C3 / Campus Arena',
         rules: ['Team Size: 2'],
-        coordinators: [{ name: 'Ashin', phone: '95675 62096' }]
+        coordinators: [{ name: 'Ashin', phone: '95675 62096' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdwACG4HVNZmKjjRfK9LwC9-tsEOj2EsqlzW0yhO_sgp6eM7w/viewform'
     },
     {
         filename: 'mixcraft.html',
@@ -102,7 +110,8 @@ const eventList = [
         time: '10:00 AM - 1:00 PM',
         venue: 'Structural MT Lab',
         rules: ['Team Size: 3', 'Cubes to be casted.'],
-        coordinators: [{ name: 'Anupriya', phone: '89216 21861' }]
+        coordinators: [{ name: 'Anupriya', phone: '89216 21861' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeG9gpScuifBpZQjAnxPFOWCaHzt9dgIJT1mbPEsr1ugRO1fQ/viewform'
     },
 
     // Workshops (Emerald Green)
@@ -139,7 +148,8 @@ const eventList = [
         time: '4:00 PM',
         venue: 'Eastern Amphi',
         rules: ['Team Size: 2'],
-        coordinators: [{ name: 'Kunjilakshmi', phone: '77361 73672' }]
+        coordinators: [{ name: 'Kunjilakshmi', phone: '77361 73672' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdx1HV_Kw1JPan_TQUBFuyJJnDFgpUqIRgGMW6t7_8F0krvqA/viewform'
     },
     {
         filename: 'food-eating.html',
@@ -150,7 +160,8 @@ const eventList = [
         time: '12:30 PM',
         venue: 'Dept. Front',
         rules: ['Individual participation'],
-        coordinators: [{ name: 'Jesna', phone: '94968 81911' }]
+        coordinators: [{ name: 'Jesna', phone: '94968 81911' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeRAQdhwUaZpGAy-g70ZMtj0Hnap620sKzasg1Ir0OcNfrjiA/closedform'
     },
     {
         filename: 'spot-dubbing-choreo.html',
@@ -161,7 +172,8 @@ const eventList = [
         time: '3:00 PM',
         venue: 'Western Amphi',
         rules: ['Individual/Team'],
-        coordinators: [{ name: 'Sreehari', phone: '99466 61464' }]
+        coordinators: [{ name: 'Sreehari', phone: '99466 61464' }],
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe26V18F5JoDoZZSF--aFHjkwGpT2HOp3cAzR7r2mrD36-Jaw/viewform'
     },
 
     // On-Spot Informals (No Registration)
@@ -356,7 +368,7 @@ const templateRaw = `<!DOCTYPE html>
                 <a href="#info" class="text-sm font-medium text-gray-400 hover:text-gold whitespace-nowrap transition-colors">Event Info</a>
                 <a href="#guidelines" class="text-sm font-medium text-gray-400 hover:text-gold whitespace-nowrap transition-colors">Guidelines</a>
                 <a href="#coordinators" class="text-sm font-medium text-gray-400 hover:text-gold whitespace-nowrap transition-colors">Coordinators</a>
-                <a href="#register" class="text-sm font-medium text-gray-400 hover:text-gold whitespace-nowrap transition-colors">Register</a>
+                {{REG_NAV_LINK}}
             </div>
         </div>
 
@@ -434,12 +446,7 @@ const templateRaw = `<!DOCTYPE html>
     </main>
 
     <!-- Sticky Bottom CTA -->
-    <div id="register" class="fixed bottom-0 left-0 w-full p-4 bg-dark/90 backdrop-blur-lg border-t border-white/10 z-50 flex items-center justify-center">
-        <a href="https://forms.google.com" target="_blank" class="w-full md:w-auto px-12 py-4 bg-gold text-dark font-bold text-lg rounded-full shadow-[0_0_20px_rgba(212,175,55,0.3)] hover:scale-105 hover:bg-white transition-all duration-300 flex items-center justify-center gap-2">
-            Register Now
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-        </a>
-    </div>
+    {{REG_SECTION}}
 
     <!-- Scripts -->
     <script>
@@ -501,6 +508,21 @@ function generatePages() {
             </div>
         </a>`).join('\n');
         content = content.replace(/{{COORDINATORS_LIST}}/g, coordsHTML);
+
+        let regSectionHTML = '';
+        let regNavLinkHTML = '';
+        if (event.regLink) {
+            regNavLinkHTML = '<a href="#register" class="text-sm font-medium text-gray-400 hover:text-gold whitespace-nowrap transition-colors">Register</a>';
+            regSectionHTML = `
+    <div id="register" class="fixed bottom-0 left-0 w-full p-4 bg-dark/90 backdrop-blur-lg border-t border-white/10 z-50 flex items-center justify-center">
+        <a href="${event.regLink}" target="_blank" class="w-full md:w-auto px-12 py-4 bg-gold text-dark font-bold text-lg rounded-full shadow-[0_0_20px_rgba(212,175,55,0.3)] hover:scale-105 hover:bg-white transition-all duration-300 flex items-center justify-center gap-2">
+            Register Now
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+        </a>
+    </div>`;
+        }
+        content = content.replace(/{{REG_SECTION}}/g, regSectionHTML);
+        content = content.replace(/{{REG_NAV_LINK}}/g, regNavLinkHTML);
 
         fs.writeFileSync(path.join(eventsDir, event.filename), content);
         console.log(`Generated: ${event.filename}`);
