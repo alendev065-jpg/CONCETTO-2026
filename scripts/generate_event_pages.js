@@ -117,7 +117,7 @@ const eventList = [
             { name: 'Indubala', phone: '90481 99989' },
             { name: 'Ibrahim', phone: '99465 31062' }
         ],
-        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfh8R_lHOf1P49u0lO_U_oW6qPlf69qP8_g_vL7X0_s4TzJ4g/viewform'
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSergdY9bh5-M2qk-1_HvRNDIo-6MggXso4lbf6UWKOUVO8EIA/viewform?usp=dialog'
     },
     {
         filename: 'urbanova.html',
